@@ -87,6 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <form class="formulario" method="POST" enctype="multipart/form-data">
         <fieldset>
+        
             <legend>Ingresar tus datos de compra</legend>
             <label for="codigo">Codigo: </label>
             <input type="text" id="codigo" name="codigo" placeholder="Ingresa tu codigo postal" value="<?php echo $codigo ?>">
